@@ -155,6 +155,10 @@ main section article i,
     color: #39b54a;
 }
 
+.fa-truck:hover{
+    transform: rotateX(90deg)
+}
+
 main section article i{
     display: block;
     font-size: 16px;
@@ -237,9 +241,13 @@ footer{
 @media (min-width: 361px){
     
 
-    
     main section article .description{
+        display: none;
+
+    }
+    main section article .description:hover{
         display: block;
+
     }
 
     main section article{
@@ -310,4 +318,8 @@ footer{
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+@keyframes camion{
+    100%{transform: rotateX(90deg)}
 }

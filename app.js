@@ -9,7 +9,7 @@ app.use (express.static(publicPath));
 
 
 app.listen(3000, ()=>{
-    console.log('Servidor corriento 3000');
+    console.log('Servidor corriendo en pto 3000');
 });
 
 app.get('/home', (req,res)=>{
